@@ -12,9 +12,9 @@ class AppModel extends Model {
     });
     this.pk = pk;
     this.config = config;
-    this.sync().catch((error) => {
-      console.log(error);
-    });
+    // this.sync().catch((error) => {
+    //   console.log(error);
+    // });
   }
 
   static config = {};

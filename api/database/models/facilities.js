@@ -29,7 +29,7 @@ module.exports = function (sequelize, DataTypes) {
       field: "time_zone",
     },
     contract: {
-      type: DataTypes.ENUM("emergent", "non-emergent"),
+      type: DataTypes.STRING(300),
       allowNull: false,
       field: "contract",
     },

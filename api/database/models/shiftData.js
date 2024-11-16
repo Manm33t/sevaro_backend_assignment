@@ -24,7 +24,7 @@ module.exports = function (sequelize, DataTypes) {
       field: "end_time",
     },
     contract: {
-      type: DataTypes.ENUM("emergent", "non-emergent"),
+      type: DataTypes.STRING(300),
       allowNull: false,
       field: "contract",
     },
